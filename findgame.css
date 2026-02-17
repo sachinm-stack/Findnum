@@ -1,0 +1,76 @@
+/* Reset default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #4e73df, #1cc88a);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Main Heading */
+h1 {
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+/* Sub Heading */
+h2 {
+    font-size: 20px;
+    color: #f8f9fc;
+    margin-bottom: 20px;
+}
+
+/* Input Box */
+input {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 200px;
+}
+
+/* Button */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f6c23e;
+    color: #000;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #e0a800;
+    transform: scale(1.05);
+}
+
+/* Result Text */
+#result {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* Score Text */
+#score {
+    margin-top: 10px;
+    font-size: 28px;
+    color: #ffffff;
+}
